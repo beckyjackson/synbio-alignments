@@ -54,7 +54,6 @@ def get_blast_output(sample_id, genome, genome_fasta, query_fasta):
 def remove_float(i):
     if i is None or pd.isnull(i) or pd.isna(i):
         return None
-    print(i)
     return str(i).replace(".0", "")
 
 
